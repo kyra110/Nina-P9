@@ -16,23 +16,39 @@
 		rel="stylesheet">
 	<link rel="icon" type="image/png" href="./assets/favicon.png">
 	<script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-			"@type": "Person",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "68 avenue Alsace-Lorraine",
-        "addressLocality": "Bordeaux",
-        "postalCode": "33200"
-      },
-      "telephone": "05 56 67 78 89",
-      "openingHours": "Mo-Fr 10:00-19:00",
-      "socialMedia": {
-        "sameAs": "https://www.instagram.com/ninacarducci.photo",
-        "name": "Nina Carducci"
-      }
-    }
-  </script>
+		{
+			"@context": "http://schema.org",
+			"@type": "ProfessionalService",
+			"additionalType": "PhotographyStudio",
+			"name": "Nina Carducci",
+			"priceRange": "50€ - 400€",
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "68 avenue Alsace-Lorraine",
+				"addressLocality": "Bordeaux",
+				"postalCode": "33200",
+				"addressCountry": "FR"
+			},
+			"telephone": "+33556677889",
+			"openingHoursSpecification": [
+				{
+					"@type": "OpeningHoursSpecification",
+					"dayOfWeek": [
+						"Monday",
+						"Tuesday",
+						"Wednesday",
+						"Thursday",
+						"Friday"
+					],
+					"opens": "10:00",
+					"closes": "19:00"
+				}
+			],
+			"sameAs": [
+				"https://www.instagram.com/ninacarducci.photo"
+			]
+		}
+		</script>
 </head>
 
 <body>
