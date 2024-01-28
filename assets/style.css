@@ -249,6 +249,11 @@ footer {
 	padding-block: 2em;
 	color: white;
 	text-align: center;
+	p{
+		a{
+			color: white;
+		}
+	}
 }
 
 @media all and (max-width: 1180px) {
